@@ -1,16 +1,29 @@
 @import "fonts";
 @import "rouge-github";
 
+.column {
+  float: left;
+  width: 45.00%;
+  padding: 5px;
+}
+
+div:after {
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 body {
-  background-color: #fff;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+  background:#fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#111;
   margin:0 0 20px;
 }
 
@@ -35,7 +48,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#267CB9;
+  color:#0070c9;
   text-decoration:none;
 }
 
@@ -172,7 +185,7 @@ strong {
 }
 
 section {
-  width:500px;
+  width:520px;
   float:right;
   padding-bottom:50px;
 }
@@ -268,5 +281,98 @@ footer {
     padding:0.4in;
     font-size:12pt;
     color:#444;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  body {
+    color:#dcdcdc;
+    background:#2a2a2a;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color:#fff;
+  }
+
+  h2 {
+    color:#f0f0f0;
+  }
+
+  h3, h4, h5, h6 {
+    color:#d0d0d0;
+  }
+
+  a {
+    color:#5580b3;
+  }
+
+  a small {
+    color:#5580b3;
+  }
+
+  .wrapper {
+    width:860px;
+    margin:0 auto;
+  }
+
+  blockquote {
+    border-left:1px solid #e5e5e5;
+    margin:0;
+    padding:0 0 0 20px;
+    font-style:italic;
+  }
+
+  code, pre {
+    color:#b3b3b3;
+  }
+
+  pre {
+    background: #2a2a2a;
+  }
+
+  th, td {
+    border-bottom:1px solid #666666;
+  }
+
+  dt {
+    color:#c4c4c4;
+  }
+
+  th {
+    color:#c4c4c4;
+  }
+
+  ul.downloads {
+    background: #757575;
+  }
+
+  .downloads a {
+    color:#e7e7e7;
+  }
+
+  .downloads a:hover, .downloads a:focus {
+    color:#d3dfdf;
+  }
+
+  .downloads ul a:active {
+    background-color:#222;
+  }
+
+  strong {
+    color:#dcdcdc;
+  }
+
+  .downloads a strong {
+    font-size:14px;
+    display:block;
+    color:#dcdcdc;
+  }
+
+  hr {
+    background:#3a3a3a;
+  }
+
+  div.github-card {
+    background:#3a3a3a;
   }
 }
