@@ -7,3 +7,6 @@ baseurl: ''
 url: "https://haowensh.com"
 github_username: harveybia
 theme: jekyll-theme-minimal
+x-introduction: >
+  This nerd thinks functions are pointers, likes embedded programming
+  and high performance stuff. Oh boy you bet he likes robots too.

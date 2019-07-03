@@ -209,6 +209,11 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+img.portrait {
+  width: 150px;
+  border-radius: 50%;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -284,6 +289,7 @@ footer {
   }
 }
 
+/* Dark mode support */
 @media (prefers-color-scheme:dark) {
   body {
     color:#dcdcdc;
