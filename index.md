@@ -31,7 +31,7 @@ for [Howie Choset][howie_choset] under his [Biorobotics Lab][bio_link].
 ### CMU + Boeing
 * 2017 Summer Research Assistant: Boeing [Blaser][blaser] Project
 
-# Projects Highlight
+# Recent
 
 ## Undergraduate Capstone Design Projects
 
@@ -42,15 +42,33 @@ way.
 
 ### 18-578 Mechatronic Design
 
-![Team JollyRoger](./assets/img/2019/capstone/jolly_roger_team.jpeg)
+![Team JollyRoger](/assets/img/2019/capstone/jolly_roger_team.jpeg)
 
 Project ShipBot, Team [JollyRoger][jolly_roger]
 
 ### 16-474 Robotics Capstone
 
-![Team Monkey](./assets/img/2019/capstone/monkey_team.jpeg)
+![Team Monkey](/assets/img/2019/capstone/monkey_team.jpeg)
 
 Robotic Jogging Companion (aka. robomonkey), Team [Monkey][robo_monkey]
+
+# My Projects
+```
+More to be added later!
+```
+{% assign proj_sorted = site.projects | sort: 'rank' %}
+<ul>
+  {% for proj in proj_sorted %}
+  <li>
+    <a href="/projects/all.html">{{ proj.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+
+# Resume
+Last updated: *Aug 2019*\\
+[Grab my resume here!][resume_link]
 
 [ece_link]: https://www.ece.cmu.edu
 [robo_major_link]: https://www.ri.cmu.edu/education/academic-programs/undergraduate-options/
@@ -61,3 +79,5 @@ Robotic Jogging Companion (aka. robomonkey), Team [Monkey][robo_monkey]
 [blaser]: http://biorobotics.ri.cmu.edu/research/ConfinedSpacePerception.php
 [jolly_roger]: https://sites.google.com/view/cmu-jollyroger
 [robo_monkey]: https://www.youtube.com/watch?v=4T_pGsnyUNg
+
+[resume_link]: /assets/files/Haowen_Shi_Resume_M19.pdf

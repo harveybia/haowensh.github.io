@@ -1,5 +1,5 @@
 title: Haowen Shi
-email: harvey.shi@yahoo.com
+email: haowensh@cs.cmu.edu
 logo: /assets/img/logo.jpeg
 description: >
   Makes Robots
@@ -7,6 +7,7 @@ baseurl: ''
 url: "https://haowensh.com"
 github_username: harveybia
 theme: jekyll-theme-minimal
+collections:
+  projects:
 x-introduction: >
-  This nerd thinks functions are pointers, likes embedded programming
-  and high performance stuff. Oh boy you bet he likes robots too.
+  Master of Science in Robotics (MSR) Student @ Carnegie Mellon

@@ -24,10 +24,10 @@ observe this website's color scheme change accordingly.
 
 <div class="row">
   <div class="column">
-    <img src="./assets/img/sitemaking/macos-mojave-system-preferences-general-dark-mode.png" alt="macOS Dark Mode Toggle" style="width:100%">
+    <img src="/assets/img/sitemaking/macos-mojave-system-preferences-general-dark-mode.png" alt="macOS Dark Mode Toggle" style="width:100%">
   </div>
   <div class="column">
-    <img src="./assets/img/sitemaking/how-to-enable-dark-mode-in-ios-13-1.png" alt="iOS Dark Mode Toggle" style="width:100%">
+    <img src="/assets/img/sitemaking/how-to-enable-dark-mode-in-ios-13-1.png" alt="iOS Dark Mode Toggle" style="width:100%">
   </div>
 </div>
 

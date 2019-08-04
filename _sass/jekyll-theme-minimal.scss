@@ -39,12 +39,20 @@ h1 {
   font-size:28px;
 }
 
+h1.maintitle {
+  margin:0 0 5px;
+}
+
 h2 {
   color:#393939;
 }
 
 h3, h4, h5, h6 {
   color:#494949;
+}
+
+h3.subtitle {
+  color:#004764;
 }
 
 a {
@@ -115,6 +123,7 @@ th {
 
 img {
   max-width:100%;
+  border-radius: 5px;
 }
 
 header {
@@ -210,8 +219,8 @@ footer {
 }
 
 img.portrait {
-  width: 150px;
-  border-radius: 50%;
+  width: 100%;
+  border-radius: 5px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -306,6 +315,10 @@ img.portrait {
 
   h3, h4, h5, h6 {
     color:#d0d0d0;
+  }
+
+  h3.subtitle {
+    color:#64d2ff;
   }
 
   a {
