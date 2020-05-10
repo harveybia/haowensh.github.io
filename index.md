@@ -10,17 +10,17 @@ layout: default
 
 # About Me
 
-I am interested in **Computer Engineering**, **Robotics**,
-**System Engineering** and basically anything computer related (minus
-compilers).
+I am interested in **Robotics**, **Computer Engineering**
+**System Engineering** and basically anything computer related
+(except compilers, which are black magic to me).
 
 I received a Bachelor of Science degree in [ECE][ece_link]
 (Electrical and Computer Engineering) with
 [Additional Major in Robotics][robo_major_link] from
 [Carnegie Mellon University][cmu_link] (2015-2019).
 
-I will be pursuing [Master of Science in Robotics][msr_link] at CMU working
-for [Howie Choset][howie_choset] under his [Biorobotics Lab][bio_link].
+I am currently pursuing [Master of Science in Robotics][msr_link] at CMU working
+for [Howie Choset][howie_choset] under the [Biorobotics Lab][bio_link].
 
 # Work Experiences
 
@@ -28,8 +28,8 @@ for [Howie Choset][howie_choset] under his [Biorobotics Lab][bio_link].
 * 2018 Summer Intern: macOS Performance Team
 * 2019 Summer Intern: CoreOS Performance Tools & Infrastructure Team
 
-### CMU + Boeing
-* 2017 Summer Research Assistant: Boeing [Blaser][blaser] Project
+### Carnegie Mellon University
+* Research Assistant: Boeing [Blaser][blaser] Project
 
 # Recent
 
