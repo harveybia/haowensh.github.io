@@ -80,4 +80,4 @@ Last updated: *Aug 2019*\\
 [jolly_roger]: https://sites.google.com/view/cmu-jollyroger
 [robo_monkey]: https://www.youtube.com/watch?v=4T_pGsnyUNg
 
-[resume_link]: /assets/files/Haowen_Shi_Resume_M19.pdf
+[resume_link]: /assets/files/Haowen_Shi_Resume_S20.pdf
