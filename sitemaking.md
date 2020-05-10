@@ -2,12 +2,16 @@
 layout: default
 ---
 
-# Hosting and Technology
+# Hosting
 
-This site is hosted on [Github Pages][github_pages]. For custom domain name,
+This site is hosted on [GitHub Pages][github_pages]. For custom domain name,
 I set my domain's DNS `ALIAS` record to point towards
-[github server][apex_domain] and `CNAME` to point my www domain to my
-Github pages domain (harveybia.github.io).
+[GitHub server][apex_domain] and `CNAME` to point my www domain to my
+GitHub pages domain (harveybia.github.io).
+
+# Site Generation
+I use a static website generator called [Jekyll][jekyll_link] and it
+integrates well with GitHub pages.
 
 # Theme
 
@@ -15,23 +19,11 @@ Github pages domain (harveybia.github.io).
 I use a theme called [minimal][min_theme]. You can get a preview of what the
 theme looks like at this [example page][min_example].
 
-# Dark Mode Support
-I made my own modifications on this theme to support the ever-popular dark
-mode theme.
+### Dark Mode Support
+I made my own modifications to this theme to support the ever-popular dark
+mode.
 
-For example, in macOS 10.14+ and iOS 13+ you can set this option and
-observe this website's color scheme change accordingly.
-
-<div class="row">
-  <div class="column">
-    <img src="/assets/img/sitemaking/macos-mojave-system-preferences-general-dark-mode.png" alt="macOS Dark Mode Toggle" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/assets/img/sitemaking/how-to-enable-dark-mode-in-ios-13-1.png" alt="iOS Dark Mode Toggle" style="width:100%">
-  </div>
-</div>
-
-This was simply achieved by taking advantage of CSS media queries. In my CSS I
+This was achieved using CSS media queries. In my CSS I
 added this simple query to override element colors when the preferred
 color scheme is `dark`.
 
@@ -46,13 +38,6 @@ color scheme is `dark`.
 }
 ```
 
-#### Known supported browsers:
-
-**Safari**\\
-Apple's
-WebKit [introduced][webkit_darkmode] `prefers-color-scheme` media query "for
-styling dark mode content" back in 2018.
-
 # Source Code
 
 You can view this website's source code here:
@@ -61,6 +46,7 @@ You can view this website's source code here:
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 [github_pages]: https://pages.github.com/
+[jekyll_link]: https://github.com/jekyll/jekyll
 [apex_domain]: https://help.github.com/en/articles/setting-up-an-apex-domain
 [min_theme]: https://github.com/pages-themes/minimal/
 [min_example]: https://pages-themes.github.io/minimal/
