@@ -7,7 +7,7 @@ layout: default
 {% assign proj_sorted = site.projects | sort: 'rank' %}
 {% for proj in proj_sorted %}
   <div>
-    <h1 class="maintitle">{{ proj.name }}</h1>
+    <h1 class="maintitle">{{ proj.title }}</h1>
     <h3 class="subtitle">
       {% if proj.awards == nil %}
         {{ proj.time }}

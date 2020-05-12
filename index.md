@@ -67,7 +67,7 @@ Robotic Jogging Companion (aka. robomonkey), Team [Monkey][robo_monkey]
       <img class="card-img-top" src="{{ proj.thumbnail }}" alt="Card image">
 
       <div class="card-body">
-        <h2 class="card-title">{{ proj.name }}</h2>
+        <h2 class="card-title">{{ proj.title }}</h2>
         <p class="card-text">{{ proj.description }}</p>
       </div>
       <div class="card-footer">

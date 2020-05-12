@@ -1,12 +1,13 @@
 ---
-name: 'Mobot "the-flash-sudo"'
-time: 2015
+time: 2016
+date: 16 Jun 2016
+title: 'Mobot "the-flash-sudo"'
 tags: [planning, computer-vision, RaspberryPi, LEGO]
 awards: First Place and Award Winning
 description: CMU Annual Mobot Challenge
 thumbnail: /assets/img/proj/theflashsudo/flash.jpg
 layout: post
-rank: 3
+rank: 9999
 ---
 ![The Flash](/assets/img/proj/theflashsudo/flash.jpg)
 The Mobot race is a Carnegie Mellon tradition which is held annually at

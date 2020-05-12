@@ -1,6 +1,7 @@
 ---
-name: Blaser Line Scanner
 time: 2016 - Current
+date: 04 Aug 2019
+title: Blaser Line Scanner
 tags: [structure-light, computer-vision, embedded, ROS, manufacturing]
 awards:
 description: A high performance confined space 3D scanner

@@ -1,13 +1,14 @@
 ---
-name: JollyRoger ShipBot
 time: 2019
+date: 23 May 2019
+title: JollyRoger ShipBot
 tags: [kinematics, planning, computer-vision, ROS, embedded, RTOS,
        hardware, system-building]
 awards: First Place and Award Winning
 description: CMU Mechatronic Design 2019 ShipBot Challenge
 thumbnail: /assets/img/proj/jollyroger/station.jpeg
 layout: post
-rank: 1
+rank: 998
 ---
 ![JollyRoger](/assets/img/proj/jollyroger/station.jpeg)
 

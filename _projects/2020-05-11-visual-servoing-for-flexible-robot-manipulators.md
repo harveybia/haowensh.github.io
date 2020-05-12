@@ -1,6 +1,7 @@
 ---
-name: Visual Servoing for Flexible Robot Manipulators
 time: 2020
+date: 11 May 2020
+title: Visual Servoing for Flexible Robot Manipulators
 tags: [kinematics, computer-vision, ROS, simulation]
 awards:
 description: >
