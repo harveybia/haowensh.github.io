@@ -9,5 +9,6 @@ github_username: harveybia
 theme: jekyll-theme-minimal
 collections:
   projects:
+    output: true
 x-introduction: >
   Master of Science in Robotics (MSR) Student @ Carnegie Mellon

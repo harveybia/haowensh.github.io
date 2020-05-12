@@ -1,8 +1,12 @@
 ---
 name: Robomonkey Jogging Companion
 time: 2018 - 2019
+tags: [computer-vision, ROS, embedded, RTOS,
+       hardware, system-building]
 awards:
 description: CMU Robotics System Engineering + Robotics Capstone Project
+thumbnail: /assets/img/2019/capstone/monkey_team.jpeg
+layout: post
 rank: 2
 ---
 ![Team Monkey](/assets/img/2019/capstone/monkey_team.jpeg)

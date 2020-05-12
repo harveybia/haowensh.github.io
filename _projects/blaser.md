@@ -1,8 +1,11 @@
 ---
 name: Blaser Line Scanner
 time: 2016 - Current
+tags: [structure-light, computer-vision, embedded, ROS, manufacturing]
 awards:
 description: A high performance confined space 3D scanner
+thumbnail: /assets/img/proj/blaser/fig1.png
+layout: post
 rank: 0
 ---
 ![Blaser Scanner](/assets/img/proj/blaser/fig1.png)

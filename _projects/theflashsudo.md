@@ -1,8 +1,11 @@
 ---
 name: 'Mobot "the-flash-sudo"'
 time: 2015
+tags: [planning, computer-vision, RaspberryPi, LEGO]
 awards: First Place and Award Winning
 description: CMU Annual Mobot Challenge
+thumbnail: /assets/img/proj/theflashsudo/flash.jpg
+layout: post
 rank: 3
 ---
 ![The Flash](/assets/img/proj/theflashsudo/flash.jpg)

@@ -3,7 +3,7 @@ layout: default
 ---
 
 ```
-🚧 Site work in progress, more to come later. 🚧
+🔔 Check out the new project gallery!
 ```
 
 * * *
@@ -52,22 +52,29 @@ Project ShipBot, Team [JollyRoger][jolly_roger]
 
 Robotic Jogging Companion (aka. robomonkey), Team [Monkey][robo_monkey]
 
-# My Projects
-```
-More to be added later!
-```
-{% assign proj_sorted = site.projects | sort: 'rank' %}
-<ul>
-  {% for proj in proj_sorted %}
-  <li>
-    <a href="/projects/all.html">{{ proj.name }}</a>
-  </li>
-  {% endfor %}
-</ul>
+* * *
 
+# Project Gallery
+
+{% assign proj_sorted = site.projects | sort: 'rank' %}
+<div class="card-group">
+  {% for proj in proj_sorted %}
+    <div class="card"  onclick="location.href='{{ proj.url }}';" style="cursor: pointer;">
+      <img class="card-img-top" src="{{ proj.thumbnail }}" alt="Card image">
+
+      <div class="card-body">
+        <h2 class="card-title">{{ proj.name }}</h2>
+        <p class="card-text">{{ proj.description }}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">{{ proj.time }}</small>
+      </div>
+    </div>
+  {% endfor %}
+</div>
 
 # Resume
-Last updated: *Aug 2019*\\
+Last updated: *May 2020*\\
 [Grab my resume here!][resume_link]
 
 [ece_link]: https://www.ece.cmu.edu
