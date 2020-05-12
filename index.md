@@ -2,11 +2,9 @@
 layout: default
 ---
 
-```
-🔔 Check out the new project gallery!
-```
-
-* * *
+<pre class="highlight">
+🔔 Check out the new <a href="#projgallery">project gallery</a>!
+</pre>
 
 # About Me
 
@@ -20,7 +18,10 @@ I received a Bachelor of Science degree in [ECE][ece_link]
 [Carnegie Mellon University][cmu_link] (2015-2019).
 
 I am currently pursuing [Master of Science in Robotics][msr_link] at CMU working
-for [Howie Choset][howie_choset] under the [Biorobotics Lab][bio_link].
+for [Howie Choset][howie_choset] under the [Biorobotics Lab][bio_link]
+(2019-2021).
+
+* * *
 
 # Work Experiences
 
@@ -30,6 +31,8 @@ for [Howie Choset][howie_choset] under the [Biorobotics Lab][bio_link].
 
 ### Carnegie Mellon University
 * Research Assistant: Boeing [Blaser][blaser] Project
+
+* * *
 
 # Recent
 
@@ -52,6 +55,7 @@ Project ShipBot, Team [JollyRoger][jolly_roger]
 
 Robotic Jogging Companion (aka. robomonkey), Team [Monkey][robo_monkey]
 
+<a name="projgallery"></a>
 * * *
 
 # Project Gallery
