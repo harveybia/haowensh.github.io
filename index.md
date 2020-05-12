@@ -63,7 +63,7 @@ Robotic Jogging Companion (aka. robomonkey), Team [Monkey][robo_monkey]
 {% assign proj_sorted = site.projects | sort: 'rank' %}
 <div class="card-group">
   {% for proj in proj_sorted %}
-    <div class="card"  onclick="location.href='{{ proj.url }}';" style="cursor: pointer;">
+    <div class="card"  onclick="location.href='{{ proj.url }}#title';" style="cursor: pointer;">
       <img class="card-img-top" src="{{ proj.thumbnail }}" alt="Card image">
 
       <div class="card-body">

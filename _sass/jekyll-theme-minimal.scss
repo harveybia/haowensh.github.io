@@ -413,3 +413,14 @@ img.portrait {
   width:100%;
   position:absolute;
 }
+
+// Anchor with offset
+// https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+
+a.anchor {
+  display: block;
+  // margin-top: 10px;
+  position: relative;
+  top: -20px;
+  visibility: hidden;
+}
