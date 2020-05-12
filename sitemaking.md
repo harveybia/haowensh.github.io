@@ -42,8 +42,9 @@ color scheme is `dark`.
 
 You can view this website's source code here:
 
-<div class="github-card" data-github="harveybia/harveybia.github.io" data-width="350" data-height="" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<a class="github-button" href="https://github.com/harveybia/harveybia.github.io" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star harveybia/harveybia.github.io on GitHub">
+harveybia.github.io
+</a>
 
 [github_pages]: https://pages.github.com/
 [jekyll_link]: https://github.com/jekyll/jekyll
