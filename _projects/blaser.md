@@ -1,6 +1,6 @@
 ---
 time: 2016 - Current
-date: 04 Aug 2019
+date: 04 Aug 2017
 title: Blaser Line Scanner
 tags: [structure-light, computer-vision, embedded, ROS, manufacturing]
 awards:

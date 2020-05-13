@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<pre class="highlight">
-🔔 Check out the new <a href="#projgallery">project gallery</a>!
-</pre>
+<!-- <pre class="highlight">
+🔔 Check out my new <a href="/projects/all">project gallery</a>!
+</pre> -->
 
 # About Me
 
@@ -34,35 +34,11 @@ for [Howie Choset][howie_choset] under the [Biorobotics Lab][bio_link]
 
 * * *
 
-# Recent
+# Recent News
 
-## Undergraduate Capstone Design Projects
-
-I took two capstone design classes in my senior year for ECE and Robotics
-respectively. Both of the two projects came out great and I learned invalueable
-experiences in project management, system engineering and teamwork along the
-way.
-
-### 18-578 Mechatronic Design
-
-![Team JollyRoger](/assets/img/2019/capstone/jolly_roger_team.jpeg)
-
-Project ShipBot, Team [JollyRoger][jolly_roger]
-
-### 16-474 Robotics Capstone
-
-![Team Monkey](/assets/img/2019/capstone/monkey_team.jpeg)
-
-Robotic Jogging Companion (aka. robomonkey), Team [Monkey][robo_monkey]
-
-<a name="projgallery"></a>
-* * *
-
-# Project Gallery
-
-{% assign proj_sorted = site.projects | sort: 'rank' %}
+{% assign proj_sorted = site.projects | sort: 'date' | reverse %}
 <div class="card-group">
-  {% for proj in proj_sorted %}
+  {% for proj in proj_sorted limit:4 %}
     <div class="card"  onclick="location.href='{{ proj.url }}#title';" style="cursor: pointer;">
       <img class="card-img-top" src="{{ proj.thumbnail }}" alt="Card image">
 
@@ -76,6 +52,12 @@ Robotic Jogging Companion (aka. robomonkey), Team [Monkey][robo_monkey]
     </div>
   {% endfor %}
 </div>
+
+<button type="button" class="wide-button" onclick="location.href='/projects/all'">
+Show all
+</button>
+
+* * *
 
 # Resume
 Last updated: *May 2020*\\
