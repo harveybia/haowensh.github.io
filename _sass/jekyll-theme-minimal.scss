@@ -274,6 +274,10 @@ img.portrait {
   pre, code {
     word-wrap:normal;
   }
+
+  img.portrait {
+    width: 70%;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
