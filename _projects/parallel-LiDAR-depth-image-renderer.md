@@ -8,7 +8,7 @@ description: >
   Parallel implementation of a renderer projecting 3D LiDAR points to 2D image.
 thumbnail: /assets/img/2020/parallel/thumbnail.png
 layout: post
-rank: 2
+rank: 996
 ---
 ![Result](/assets/img/2020/parallel/thumbnail.png)
 
