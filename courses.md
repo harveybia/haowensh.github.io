@@ -36,14 +36,16 @@ This is a _partial_ list of all the courses that I've taken.
 [16-811][16_811] **Math Fundamentals for Robotics**\\
 [16-833][16_833] **Robot Localization and Mapping**\\
 [15-418][15_418] **Parallel Computer Architecture and Programming**\\
-[16-711][16_711] **Kinematics, Dynamics and Control**
+[16-711][16_711] **Kinematics, Dynamics and Control**\\
+[16-899][16_899] **Adaptive Control & Reinforcement Learning**\\
+[16-748][16_748] **Underactuated Robotics**
 * * *
-(Upcoming in Fall 2020)\\
-[16-899][16_899] Adaptive Control & Reinforcement Learning\\
-[16-748][16_748] Underactuated Robotics
+(Upcoming in Spring 2021)\\
+16-720 Computer Vision\\
+[16-831][16_831] Statistical Techniques in Robotics
 
 
-#### Last Updated on May 10 2020
+#### Last Updated on Dec 29 2020
 
 [18_578]: https://sites.google.com/site/cmumechatronicdesign/
 [15_410]: https://www.cs.cmu.edu/~410/
@@ -65,3 +67,4 @@ This is a _partial_ list of all the courses that I've taken.
 [15_418]: https://www.cs.cmu.edu/~418/
 [16_899]: https://www.cs.cmu.edu/~cliu6/acrl.html
 [16_748]: https://sites.google.com/site/cmuunderactuatedrobotics/home
+[16_831]: https://sites.google.com/view/16-831-cmu/home
