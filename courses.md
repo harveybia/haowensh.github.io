@@ -4,7 +4,7 @@ layout: default
 
 # Relevant Courses
 
-This is a _partial_ list of all the courses that I've taken.
+This is a _partial_ list of the courses I have taken.
 
 ## CMU B.S. in ECE + Robotics Additional Major (2015-2019)
 
@@ -38,14 +38,9 @@ This is a _partial_ list of all the courses that I've taken.
 [15-418][15_418] **Parallel Computer Architecture and Programming**\\
 [16-711][16_711] **Kinematics, Dynamics and Control**\\
 [16-899][16_899] **Adaptive Control & Reinforcement Learning**\\
-[16-748][16_748] **Underactuated Robotics**
-* * *
-(Upcoming in Spring 2021)\\
-16-720 Computer Vision\\
-[16-831][16_831] Statistical Techniques in Robotics
-
-
-#### Last Updated on Dec 29 2020
+[16-748][16_748] **Underactuated Robotics**\\
+16-720 **Computer Vision**\\
+[16-831][16_831] **Statistical Techniques in Robotics**
 
 [18_578]: https://sites.google.com/site/cmumechatronicdesign/
 [15_410]: https://www.cs.cmu.edu/~410/
