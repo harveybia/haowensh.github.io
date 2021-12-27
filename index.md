@@ -8,29 +8,36 @@ layout: default
 
 # About Me
 
-I am interested in **Robotics**, **Computer Engineering**
-**System Engineering** and basically anything computer related
-(except compilers, which are black magic to me).
+I am interested in **Robotics**, **Computer Engineering**,
+and basically anything computer related
+(except compilers, which are black magic to me and I am happy
+with it staying that way).
 
-I received a Bachelor of Science degree in [ECE][ece_link]
-(Electrical and Computer Engineering) with
-[Additional Major in Robotics][robo_major_link] from
-[Carnegie Mellon University][cmu_link] (2015-2019).
+* * *
 
-I am currently pursuing [Master of Science in Robotics][msr_link] at CMU working
-for [Howie Choset][howie_choset] under the [Biorobotics Lab][bio_link]
-(2019-2021).
+# Education
+* Carnegie Mellon University, Master of Science in Robotics
+([MSR][msr_link]) under the [Biorobotics Lab][bio_link]
+with [Howie Choset][howie_choset] being my advisor
+(2019-2021). Here is my masters [thesis][thesis_link].
+* Carnegie Mellon University,
+Bachelor of Science degree in
+[Electrical and Computer Engineering][ece_link] with
+[Additional Major in Robotics][robo_major_link] (2015-2019).
 
 * * *
 
 # Work Experiences
+
+### Mach9 Robotics Inc.
+* 2021 - Current: Co-founder and CTO
 
 ### Apple Inc.
 * 2018 Summer Intern: macOS Performance Team
 * 2019 Summer Intern: CoreOS Performance Tools & Infrastructure Team
 
 ### Carnegie Mellon University
-* Research Assistant: Boeing [Blaser][blaser] Project
+* 2017 Summer Research Assistant: [Confined space laser scanner][blaser].
 
 * * *
 
@@ -74,3 +81,4 @@ Last updated: *May 2020*\\
 [robo_monkey]: https://www.youtube.com/watch?v=4T_pGsnyUNg
 
 [resume_link]: /assets/files/Haowen_Shi_Resume_F20.pdf
+[thesis_link]: https://www.ri.cmu.edu/publications/the-design-of-a-compact-laser-scanner-and-an-integrated-simulation-environment-for-smart-manufacturing/
